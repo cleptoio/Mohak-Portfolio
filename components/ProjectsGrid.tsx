@@ -15,10 +15,10 @@ export default function ProjectsGrid() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="gradient-text">Featured Projects</span>
+            <span className="gradient-text">Featured Impact</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Strategic initiatives and transformational projects across various domains
+            Strategic initiatives and transformational projects delivering measurable business value
           </p>
         </motion.div>
 
