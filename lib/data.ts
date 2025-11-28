@@ -1,12 +1,18 @@
 export const personalInfo = {
   name: "Mohak Wadhwa",
   title: "Digital Transformation - Business Analyst",
+  company: "Deloitte Ireland",
   tagline: "ERP Programme Management | Technology Strategy & Transformation | Business Analytics",
   bio: "Technology Consultant specializing in digital transformation, ERP modernization, and cloud migration strategies. Experienced in leading Salesforce and SAP implementations across global teams, with a proven track record of enhancing efficiency and user adoption.",
   email: "mohak.w@gmail.com",
   phone: "+353 89 952 4509",
-  location: "Dublin 16, Ireland",
+  location: "Dublin, Ireland",
   profileImage: "/images/mohak-profile.webp",
+  stats: {
+    experience: "6+",
+    projects: "50+",
+    efficiency: "100%",
+  },
 };
 
 export const socialLinks = {
