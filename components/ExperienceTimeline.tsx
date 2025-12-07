@@ -30,16 +30,15 @@ export default function ExperienceTimeline() {
 
           {/* Experience items */}
           <div className="space-y-12">
-            {experience.map((exp, index) => (
+            {experience.slice(1).map((exp, index) => (
               <motion.div
                 key={`${exp.company}-${exp.startDate}`}
                 initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2 }}
-                className={`relative flex items-center ${
-                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                }`}
+                className={`relative flex items-center ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                  }`}
               >
                 {/* Timeline dot */}
                 <div className="absolute left-0 md:left-1/2 w-4 h-4 -ml-[7px] md:-ml-2 rounded-full bg-primary border-4 border-background z-10" />
